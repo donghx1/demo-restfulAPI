@@ -1,14 +1,13 @@
 
-#!flask/bin/python
+# !flask/bin/python
 
 from flask import Flask
 
 
 app = Flask(__name__)
 
- 
-@app.route('/')
 
+@app.route('/')
 def index():
     return "Hello, World!"
 
